@@ -22,4 +22,4 @@ Contiene los x x x [ficheros](https://github.com/faguilera1952/MasBaratoAqui-Rep
 
 Dentro se encuentra la carpeta [_ProductoFinal_](https://github.com/faguilera1952/MasBaratoAqui-Repo/tree/main/Entrega%204) que contiene la última versión del prototipo creado.
 
-![logo](/imagenes/lgo.jpg)
+![logo](/imagenes/logo.jpg)
