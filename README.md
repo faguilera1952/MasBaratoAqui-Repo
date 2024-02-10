@@ -20,6 +20,10 @@ Contiene los x x x [ficheros](https://github.com/faguilera1952/MasBaratoAqui-Rep
 
 ## Entrega 4
 
-Dentro se encuentra la carpeta [_ProductoFinal_](https://github.com/faguilera1952/MasBaratoAqui-Repo/tree/main/Entrega%204) que contiene la última versión del prototipo creado.
+Contiene los x x x [ficheros](https://github.com/faguilera1952/MasBaratoAqui-Repo/tree/main/Entrega%204)
+
+## ProductoFinal
+
+Dentro se encuentran las [carpetas](https://github.com/faguilera1952/MasBaratoAqui-Repo/tree/main/Entrega%204) que contienen la última versión del prototipo creado.
 
 ![logo](/imagenes/logo.jpg)
