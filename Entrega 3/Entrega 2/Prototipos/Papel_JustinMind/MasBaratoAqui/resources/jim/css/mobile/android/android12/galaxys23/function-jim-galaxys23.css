@@ -1,0 +1,115 @@
+/* start Galaxy S23 css values*/
+body.androidgalaxys23 #jim-mobile { position:relative; top:0px; left:0px; width:397.5px; height:812px; margin:auto; }
+body.androidgalaxys23 #jim-case { background-image: url("../../../../../images/mobile/android/android12/galaxys23@2x.png"); height:812px; width:397.5px; background-size:100% auto; z-index:100; /*must be over keyboards and comment bubbles*/ position:absolute; pointer-events:none; }
+body.androidgalaxys23 #jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+body.androidgalaxys23 #jim-mobile .ui-page { overflow:hidden; }
+
+/* orientation values */
+body.androidgalaxys23 #jim-mobile.landscape { height:397.5px; width:812px; }
+body.androidgalaxys23 #jim-case.portrait { transform:rotate(0deg); transform-origin:auto; }
+body.androidgalaxys23 #jim-case.landscape { top:27px; left:33.5px; transform:rotate(-90deg); transform-origin:50% 25% 0; }
+body.androidgalaxys23 #jim-container.portrait { position: absolute; top: 17px; left: 17.5px; width: 360px; height: 780px; }
+body.androidgalaxys23 #jim-container.landscape { position: absolute; top: 21.5px; left: 16px; width: 780px; height: 360px; }
+
+/* KEYBOARD PORTRAIT VALUES */
+/* custom keyboard */
+.androidgalaxys23 .portrait #jim-android-kb {height: 268px; background-color: #E6E6E6;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div {background-color: #FDFDFD; padding-top: 6px; padding-bottom: 6px}
+
+/*Special rules for numbers and first key of the row */
+.androidgalaxys23 .portrait #jim-android-kb .row {height: 35px;}
+.androidgalaxys23 .portrait #jim-android-kb .row:nth-child(1) {height: 26px;}
+.androidgalaxys23 .portrait #jim-android-kb .row:nth-child(1) > div {height: 29px; padding-top: 2px; padding-bottom: 2px}
+.androidgalaxys23 .portrait #jim-android-kb #letters .row:nth-child(3) > div:first-child { margin-left: 7%; }
+.androidgalaxys23 .portrait #jim-android-kb #email .row:nth-child(3) > div:first-child { margin-left: 7%; }
+.androidgalaxys23 .portrait #jim-android-kb #url .row:nth-child(3) > div:first-child { margin-left: 7%; }
+
+/* Keyboard special keys */
+.androidgalaxys23 .portrait #jim-android-kb #email .row > div.space { width:37%;}
+.androidgalaxys23 .portrait #jim-android-kb #url .row > div.space { width:37%;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.return { width:12.65%; background-color: #D1D1D1; margin-left:2%;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.numbers { width:12.65%; background-color: #D1D1D1; padding-bottom: 1.5px;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.backspace { width: 11.5%; background-color: #D1D1D1; margin-left:3.05%;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.shift { width:11.5%; background-color: #D1D1D1; margin-right: 1%;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.signs { width:11.5%; background-color: #D1D1D1; margin-right: 1%; font-size:17px; padding-top: 10px; padding-bottom: 1px;}
+.androidgalaxys23 .portrait #jim-android-kb #signs .row > div.numbers { width:11.5%; margin-right: 1%;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.letters { width:12.65%; background-color: #D1D1D1; padding-bottom: 2px;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.char-code-44 {background-color: #FDFDFD;} /* character: , */
+.androidgalaxys23 .portrait #jim-android-kb .row > div.char-code-46 {background-color: #FDFDFD;} /* character: . */
+.androidgalaxys23 .portrait #jim-android-kb .row > div.char-code-60 {background-color: #FDFDFD;} /* character: < */
+.androidgalaxys23 .portrait #jim-android-kb .row > div.char-code-62 {background-color: #FDFDFD;} /* character: > */
+.androidgalaxys23 .portrait #jim-android-kb #url .row > div.char-code-47 {background-color: #FDFDFD;} /* character: \ */
+.androidgalaxys23 .portrait #jim-android-kb #email .row > div.char-code-64 {background-color: #FDFDFD;} /* character: @ */
+
+/* Bubble */
+.androidgalaxys23 .portrait #jim-android-kb .divBubble { top: -95px; left: -30%; background-color: #FDFDFD; width:158%; height:51.37px;}
+.androidgalaxys23 .portrait #jim-android-kb .row:nth-child(1) > div:first-child > div.divBubble {left: -4%;}
+.androidgalaxys23 .portrait #jim-android-kb .row:nth-child(2) > div:first-child > div.divBubble {left: -4%;}
+.androidgalaxys23 .portrait #jim-android-kb #numbers .row:nth-child(3) > div:first-child > div.divBubble {left: -4%;}
+.androidgalaxys23 .portrait #jim-android-kb #signs .row:nth-child(3) > div:first-child > div.divBubble {left: -4%;}
+.androidgalaxys23 .portrait #jim-android-kb .row:nth-child(1) > div:last-child > div.divBubble {left: -54%;}
+.androidgalaxys23 .portrait #jim-android-kb .row:nth-child(2) > div:last-child > div.divBubble {left: -54%;}
+.androidgalaxys23 .portrait #jim-android-kb #numbers .row:nth-child(3) > div:last-child > div.divBubble {left: -54%;}
+.androidgalaxys23 .portrait #jim-android-kb #signs .row:nth-child(3) > div:last-child > div.divBubble {left: -54%;}
+
+.androidgalaxys23 .portrait #jim-android-kb .row > div.return > div.background-image-key { background-position: -110px -1px;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.shift > div.background-image-key { background-position: -86px -1px;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.shift.caps > div.background-image-key { background-position: -44px -1px;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.shift.capsLock > div.background-image-key { background-position: -24px -1px; width: 23px;}
+
+/* Pressed Keys */
+.androidgalaxys23 .portrait #jim-android-kb .row > div.pressed {background-color: #A6A6A6;}
+.androidgalaxys23 .portrait #jim-android-kb #url .row > div.pressed {background-color: #A6A6A6;}
+.androidgalaxys23 .portrait #jim-android-kb #email .row > div.pressed {background-color: #A6A6A6;}
+.androidgalaxys23 .portrait #jim-android-kb #signs .row > div.pressed {background-color: #A6A6A6;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.shift.caps.pressed > div.background-image-key { background-position: -86px -1px;}
+.androidgalaxys23 .portrait #jim-android-kb .row > div.shift.capsLock.pressed > div.background-image-key { background-position: -66px -1px; width: 23px;}
+
+
+/* KEYBOARD LANDSCAPE VALUES */
+.androidgalaxys23 .landscape #jim-android-kb {height: 175px; background-color: #E6E6E6;}
+.androidgalaxys23 .landscape #jim-android-kb .row { height: 28px;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div { height: 25px; background-color: #FDFDFD; padding-top: 1px; padding-bottom: 5px;}
+/*Special rules for numbers and first key of the row*/
+.androidgalaxys23 .landscape #jim-android-kb .row:nth-child(1) {height: 19px;}
+.androidgalaxys23 .landscape #jim-android-kb .row:nth-child(1) > div {height: 18px; font-size: 16.5px; padding-top: 0%; padding-bottom: 0.5%;}
+
+/*Special rules for numbers and first key of the row*/
+.androidgalaxys23 .landscape #jim-android-kb #letters .row:nth-child(3) > div:first-child { margin-left: 19.25%; }
+.androidgalaxys23 .landscape #jim-android-kb #url .row:nth-child(3) > div:first-child { margin-left: 18.9%; }
+.androidgalaxys23 .landscape #jim-android-kb #email .row:nth-child(3) > div:first-child { margin-left: 18.9%; }
+
+/* Keyboard special keys*/
+.androidgalaxys23 .landscape #jim-android-kb .row > div.backspace { width: 8%; background-color: #D1D1D1; margin-left:3.05%;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.shift { width: 8%; background-color: #D1D1D1; margin-right: 1%;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.signs { width: 8%; background-color: #D1D1D1; margin-right: 1%; font-size:17px; padding-top: 5px; padding-bottom: 0.5px;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.space { width:34.25%; font-size:14px; padding-bottom: 0px; padding-top: 6px;}
+.androidgalaxys23 .landscape #jim-android-kb #email .row > div.space { width:27.25%;}
+.androidgalaxys23 .landscape #jim-android-kb #url .row > div.space { width:27.25%;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.return { background-color: #D1D1D1;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.numbers { width:9%; background-color: #D1D1D1; margin-right: 0%; padding-top: 5px; padding-bottom: 0.5px;}
+.androidgalaxys23 .landscape #jim-android-kb #signs .row > div.numbers {width:8%; background-color: #D1D1D1; margin-right: 1%;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.letters { width:9%; background-color: #D1D1D1; padding-top: 4px; padding-bottom: 0px;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.num { font-size: 10.5px; line-height: 10.5px; padding-top: 4.25px; padding-bottom:	0px;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.char-code-44 {background-color: #FDFDFD;} /* character: , */
+.androidgalaxys23 .landscape #jim-android-kb .row > div.char-code-46 {background-color: #FDFDFD;} /* character: . */
+.androidgalaxys23 .landscape #jim-android-kb .row > div.char-code-60 {background-color: #FDFDFD;} /* character: < */
+.androidgalaxys23 .landscape #jim-android-kb .row > div.char-code-62 {background-color: #FDFDFD;} /* character: > */
+.androidgalaxys23 .landscape #jim-android-kb #url .row > div.char-code-47 {background-color: #FDFDFD;} /* character: \ */
+.androidgalaxys23 .landscape #jim-android-kb #email .row > div.char-code-64 {background-color: #FDFDFD;} /* character: @ */
+
+.androidgalaxys23 .landscape #jim-android-kb .row > div.return > div.background-image-key { background-position: -110px -4px;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.shift > div.background-image-key { background-position: -86px -3px;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.shift.caps > div.background-image-key { background-position: -44px -3px; }
+.androidgalaxys23 .landscape #jim-android-kb .row > div.shift.capsLock > div.background-image-key { background-position: -24px -3px; width: 23px;}
+
+/* Bubble */
+.androidgalaxys23 .landscape #jim-android-kb .divBubble { top: -85px; left: 0%; background-color: #FDFDFD; width:100%; height:51.37px;}
+
+/* Pressed Keys */
+.androidgalaxys23 .landscape #jim-android-kb .row > div.pressed {background-color: #A6A6A6;}
+.androidgalaxys23 .landscape #jim-android-kb #url .row > div.pressed {background-color: #A6A6A6;}
+.androidgalaxys23 .landscape #jim-android-kb #email .row > div.pressed {background-color: #A6A6A6;}
+.androidgalaxys23 .landscape #jim-android-kb #signs .row > div.pressed {background-color: #A6A6A6;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.shift.caps.pressed > div.background-image-key { background-position: -86px -3px;}
+.androidgalaxys23 .landscape #jim-android-kb .row > div.shift.capsLock.pressed > div.background-image-key { background-position: -66px -3px; width: 23px;}

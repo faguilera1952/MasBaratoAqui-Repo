@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'android-Light';
+    src: url('../../common/android-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'android-Regular';
+    src: url('../../common/android-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'android-Medium';
+    src: url('../../common/android-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'android-Bold';
+    src: url('../../common/android-Bold.ttf') format('truetype');
+}
+
+/* KEYBOARD PORTRAIT VALUES */
+/* Keyboard basic keys*/
+.android-device .portrait #jim-android-kb { position: absolute; bottom: 0px; left: 0px; width: 100%; height: 230px; background-color: #E8EAED; font-family:'android-Regular'; font-weight:300; font-size:21px; z-index:99; display:none; }
+.android-device .portrait #jim-android-kb .row { width: 100%; height: 40px; margin-top: 13px; display: flex; flex-direction: row;}
+.android-device .portrait #jim-android-kb .row > div { background-color: #FFFFFF; width: 7.75%; height: 30px; margin-left: 2.09%; padding-top: 8px; padding-bottom: 8px; text-align: center; vertical-align: top; display: table-cell; border-radius: 5px; filter: drop-shadow(0px 1px 1px #ababab); }
+.android-device .portrait #jim-android-kb .row > div.p { margin-right:0%; }
+
+
+/* Keyboard special keys*/
+.android-device .portrait #jim-android-kb .row > div.backspace { width: 12.5%; background-color: #CCCED5;}
+.android-device .portrait #jim-android-kb .row > div[class*="shift"] { width:12.5%; background-color: #CCCED5;}
+.android-device .portrait #jim-android-kb .row > div[class*="signs"] { width:12.5%; background-color: #CCCED5; font-size:17px; padding-top: 7px; padding-bottom: 4px;}
+.android-device .portrait #jim-android-kb .row > div.space { width:47%; font-size:14px; border-radius: 4px; padding-bottom: 0px; padding-top: 11px;}
+.android-device .portrait #jim-android-kb .row > div.return { width:12.5%; background-color: #1A73E8; margin-left:2%;}
+.android-device .portrait #jim-android-kb .row > div[class*="numbers"] { width:12.5%; background-color: #CCCED5; font-size: 17px; padding-top: 9px; padding-bottom: 4px;}
+.android-device .portrait #jim-android-kb #signs .row > div[class*="numbers"] { width:12.5%; background-color: #CCCED5; padding-bottom: 2px;}
+.android-device .portrait #jim-android-kb .row > div[class*="letters"] { width:12.5%; background-color: #D1D1D1; font-size: 17px; padding-top: 9px; padding-bottom: 3px;}
+.android-device .portrait #jim-android-kb .row > div.num { font-size: 12px; line-height: 12px; padding-top: 8px; padding-bottom: 2.5px;}
+.android-device .portrait #jim-android-kb .row > div.char-code-44 {background-color: #CCCED5;} /* character: , */
+.android-device .portrait #jim-android-kb .row > div.char-code-46 {background-color: #CCCED5;} /* character: . */
+.android-device .portrait #jim-android-kb .row > div.char-code-60 {background-color: #CCCED5;} /* character: < */
+.android-device .portrait #jim-android-kb .row > div.char-code-62 {background-color: #CCCED5;} /* character: > */
+.android-device .portrait #jim-android-kb #url .row > div.char-code-47 {background-color: #CCCED5;} /* character: \ */
+.android-device .portrait #jim-android-kb #email .row > div.char-code-64 {background-color: #CCCED5;} /* character: @ */
+.android-device .portrait #jim-android-kb #url .row > div[class*="www."] {font-size: 11px; height: 26px; padding-top: 14px; padding-bottom: 0.5px;}
+.android-device .portrait #jim-android-kb #email .row > div[class*=".com"] {font-size: 11px; height: 26px; padding-top: 14px; padding-bottom: 0.5px;}
+
+.android-device .portrait #jim-android-kb .row > div > div.background-image-key {height: 30px; width: 25px; background-repeat: no-repeat; background-image: url(./android12-sprite@2x.png); background-size: 250px 25px; margin: 4px auto;}
+.android-device .portrait #jim-android-kb .row > div.backspace > div.background-image-key { background-position: 0px -2px;}
+.android-device .portrait #jim-android-kb .row > div.emote > div.background-image-key { background-position: -159.35px 3px; margin-top: 1px;}
+.android-device .portrait #jim-android-kb .row > div.return > div.background-image-key { background-position: -134px -1px;}
+.android-device .portrait #jim-android-kb .row > div[class*="shift"] > div.background-image-key { background-position: -86px 0px;}
+.android-device .portrait #jim-android-kb .row > div[class*="shift"].caps > div.background-image-key { background-position: -65px 0px;}
+.android-device .portrait #jim-android-kb .row > div[class*="shift"].capsLock > div.background-image-key { background-position: -183px 0px;}
+
+/* Keyboard images special keys must not send click events*/
+.android-device .portrait #jim-android-kb .row span { pointer-events: none; }
+.android-device .portrait #jim-android-kb .row > div > div.background-image-key {pointer-events: none;}
+
+/*Pressed keys*/
+.android-device .portrait #jim-android-kb .row > div.pressed {background-color: #A6A6A6;}
+.android-device .portrait #jim-android-kb #signs .row > div.pressed {background-color: #A6A6A6;}
+
+/* Bubble */
+.android-device .portrait #jim-android-kb .divBubble { top: -92px; left: 0%; background-color: #A6A6A6; position:relative; display:block; width:100%; height:100.37px; border-radius: 5px; filter: drop-shadow(0px 1px 2px #ababab); padding-top: 1.5%; padding-bottom: 1.5%;}
+.android-device .portrait #jim-android-kb .keyBubble { font-family:'android-Regular'; font-weight:300; font-size:21px; display:block; text-align: center; height: 100%; padding-top: 8px; }
+.android-device .portrait #jim-android-kb .row > div[class*="www."] .keyBubble { font-size:11px; }
+.android-device .portrait #jim-android-kb .row > div[class*=".com"] .keyBubble { font-size:11px; }
+
+/* KEYBOARD LANDSCAPE VALUES */
+/* Keyboard basic keys*/
+.android-device .landscape #jim-android-kb { position: absolute; bottom: 0px; left: 0px; width: 100%; height: 167px; background-color: #E8EAED; font-family:'android-Regular'; font-weight:300; font-size:21px; z-index:99; display:none; }
+.android-device .landscape #jim-android-kb .row { width: 100%; height: 32px; display: flex; flex-direction: row; margin-top: 7px;}
+.android-device .landscape #jim-android-kb .row > div { width: 5.85%; height: 29px; margin-left: 1.25%; padding-top: 3px; padding-bottom: 3px; text-align: center; vertical-align: top; display: table-cell; background-color: #FFFFFF; border-radius: 5px; filter: drop-shadow(0px 1px 1px #ababab); }
+.android-device .landscape #jim-android-kb .row > div.p { margin-right:0%; }
+
+/*Special rules for numbers and first key of the row*/
+.android-device .landscape #jim-android-kb .row:nth-child(1) > div:first-child { margin-left: 15.75%; }
+.android-device .landscape #jim-android-kb .row:nth-child(2) > div:first-child { margin-left: 15.75%; }
+.android-device .landscape #jim-android-kb .row:nth-child(3) > div:first-child { margin-left: 15.75%; }
+.android-device .landscape #jim-android-kb .row:nth-child(4) > div:first-child { margin-left: 15.75%; }
+.android-device .landscape #jim-android-kb .row:nth-child(5) > div:first-child { margin-left: 15.75%; }
+
+/* Keyboard special keys*/
+.android-device .landscape #jim-android-kb .row > div.backspace { width: 10%; background-color: #CCCED5;}
+.android-device .landscape #jim-android-kb .row > div[class*="shift"] { width: 9%; background-color: #CCCED5;}
+.android-device .landscape #jim-android-kb .row > div[class*="signs"] { width: 9%; background-color: #CCCED5; font-size:19px;}
+.android-device .landscape #jim-android-kb .row > div.space { width:34.25%; font-size:14px; border-radius: 4px; padding-bottom: 0px; padding-top: 4px;}
+.android-device .landscape #jim-android-kb .row > div.return { width:10%; background-color: #1A73E8; border-radius: 5px;}
+.android-device .landscape #jim-android-kb .row > div[class*="numbers"] { width:9%; background-color: #CCCED5; font-size: 17px; padding-top: 3.5px; padding-bottom: 1px;}
+.android-device .landscape #jim-android-kb #signs .row > div[class*="numbers"] {width:9%; background-color: #CCCED5; padding-bottom: 0px;}
+.android-device .landscape #jim-android-kb .row > div[class*="letters"] { width:9%; background-color: #D1D1D1; font-size: 17px; padding-top: 3px; padding-bottom: 1px;}
+.android-device .landscape #jim-android-kb .row > div.num { font-size: 10.5px; line-height: 10.5px; padding-top: 4.25px; padding-bottom:	0px;}
+.android-device .landscape #jim-android-kb .row > div.char-code-44 {background-color: #CCCED5;} /* character: , */
+.android-device .landscape #jim-android-kb .row > div.char-code-46 {background-color: #CCCED5;} /* character: . */
+.android-device .landscape #jim-android-kb .row > div.char-code-60 {background-color: #CCCED5;} /* character: < */
+.android-device .landscape #jim-android-kb .row > div.char-code-62 {background-color: #CCCED5;} /* character: > */
+.android-device .landscape #jim-android-kb #url .row > div.char-code-47 {background-color: #CCCED5;} /* character: \ */
+.android-device .landscape #jim-android-kb #email .row > div.char-code-64 {background-color: #CCCED5;} /* character: @ */
+.android-device .landscape #jim-android-kb #url .row > div[class*="www."] {font-size: 11px; height: 22px; padding-top: 7.75px; padding-bottom: 0px;}
+.android-device .landscape #jim-android-kb #email .row > div[class*=".com"] {font-size: 11px; height: 22px; padding-top: 7.75px; padding-bottom: 0px;}
+
+.android-device .landscape #jim-android-kb .row > div > div.background-image-key {height: 30px; width: 25px; background-repeat: no-repeat; background-image: url(./android12-sprite@2x.png); background-size: 250px 25px; margin: 4px auto;}
+.android-device .landscape #jim-android-kb .row > div.backspace > div.background-image-key { background-position: 0px -2px;}
+.android-device .landscape #jim-android-kb .row > div.emote > div.background-image-key { background-position: -159.35px 2.25px; margin-top: 1px; }
+.android-device .landscape #jim-android-kb .row > div.return > div.background-image-key { background-position: -134px 0px; }
+.android-device .landscape #jim-android-kb .row > div[class*="shift"] > div.background-image-key { background-position: -85.8px -1px; }
+.android-device .landscape #jim-android-kb .row > div[class*="shift"].caps > div.background-image-key { background-position: -65px -1px; }
+.android-device .landscape #jim-android-kb .row > div[class*="shift"].capsLock > div.background-image-key { background-position: -183px -1px; }
+
+/* Keyboard images special keys must not send click events*/
+.android-device .landscape #jim-android-kb .row span { pointer-events: none; }
+.android-device .landscape #jim-android-kb .row > div > div.background-image-key {pointer-events: none;}
+
+/*Pressed keys*/
+.android-device .landscape #jim-android-kb .row > div.pressed {background-color: #A6A6A6;}
+.android-device .landscape #jim-android-kb #signs .row > div.pressed {background-color: #A6A6A6;}
+
+/* Bubble */
+.android-device .landscape #jim-android-kb .divBubble { top: -87px; left: 0%; background-color: #A6A6A6; position:relative; display:block; width:100%; height:88.37px; border-radius: 5px; filter: drop-shadow(0px 1px 2px #ababab); padding-top: 1.5%; padding-bottom: 1.5%;}
+.android-device .landscape #jim-android-kb .keyBubble { font-family:'android-Regular'; font-weight:300; font-size:21px; display:block; text-align: center; height: 100%; padding-top: 8px; }
+.android-device .landscape #jim-android-kb .row > div[class*="www."] .keyBubble { font-size:11px; }
+.android-device .landscape #jim-android-kb .row > div[class*=".com"] .keyBubble { font-size:11px; }
+
+/* Dropdown */
+.android-device #jim-android-dd {background-color: white;width: 260px;position: absolute;top: 50%;left: 50%;z-index: 100;transform: translate(-50%, -50%);display:none;border-radius:5px;}
+.android-device #jim-android-dd .dd_options {overflow:hidden;height:auto;border-radius:5px;}
+.android-device #jim-android-dd .dd_options .line_options {display:table;height:53px;width:100%;}
+.android-device #jim-android-dd .dd_options .line_options.selected {background-color:white !important;color:inherit !important;}
+.android-device #jim-android-dd .dd_options .line_options.pressed {background-color: rgb(232, 230, 230);color:inherit;}
+.android-device #jim-android-dd .dd_options .line_options:not(:last-child){border-bottom: 1px solid #DDDDDD;}
+.android-device #jim-android-dd .dd_options .line_options .options {display:table-cell;vertical-align:middle;font-size:18px;font-family:'android-Regular';padding:15px;word-break: break-all;width:100%;}
+.android-device #jim-android-dd .dd_options .line_options .tick { transform:translateY(100%);background-image:url('../../../../../css/mobile/android/android12/common/android12-sprite@2x.png'); background-repeat:no-repeat; width: 17px;height: 17px;background-size: 300px 30px;background-position: -253px -7px;margin-right: 15px;margin-left: 10px;}
+.android-device #jim-android-dd .dd_options .line_options.selected .tick { background-position: -276px -7px;}
+
+/* mask values */
+.android-device #jim-android-mask { background-color:black; opacity:0.4; position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:98; display:none;}

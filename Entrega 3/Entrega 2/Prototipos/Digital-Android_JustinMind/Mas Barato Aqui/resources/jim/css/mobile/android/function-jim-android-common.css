@@ -1,0 +1,21 @@
+/*** input components ***/
+body.devAndroid .checkboxlist .scroll, body.devAndroid .radiobuttonlist .scroll { overflow-x:hidden; }
+
+.canvas.devAndroid .radiobuttonlist .scroll { padding-left:0px; margin-left:0px; }
+
+/*** native dropdowns ***/
+.canvas.devAndroid .nativedropdown.inputAndroid .backgroundLayer {background-color: #FFFFFF;border-width: 1px; border-color: #4d4d4d; border-style: solid;border-radius:2px;}
+.canvas.devAndroid .nativedropdown.inputAndroid .content {
+	display:table;
+	vertical-align:inherit;
+    height: 100%;
+    width: 100%;
+}
+.canvas.devAndroid .nativedropdown.inputAndroid { height:20px; color: #000000; text-align: left; text-decoration: none; font-family: Helvetica, Arial; font-style: normal; font-weight: normal; vertical-align: middle;}
+.canvas.devAndroid .nativedropdown.inputAndroid[disabled="disabled"] { color: #000000; }
+.canvas.devAndroid .nativedropdown.inputAndroid .content{border:#848484 solid 1px !important;table-layout:fixed;border-radius:2px;}
+.canvas.devAndroid .nativedropdown.inputAndroid.pressed .backgroundLayer { border-color: #102b7f; }
+.canvas.devAndroid .nativedropdown.inputAndroid .icon { position:relative; top:0px; width: 19px; height: 19px; float: right; background-repeat: no-repeat; background-position: 50% 50%; padding-right: 0px; background-image: url("../../../images/mobile/android/common/android_dropdown_icon.svg"); background-size:9px 5px;}
+.canvas.devAndroid .nativedropdown.inputAndroid .dropdown-options { opacity:0.0001; filter: alpha(opacity=0); }
+.canvas.devAndroid .nativedropdown.inputAndroid .value { width:calc(100% - 21px); visibility:visible; padding-left:5px; font-size:9pt; overflow:hidden;}
+.canvas.devAndroid .nativedropdown.inputAndroid[readonly="readonly"] {opacity:0.5;}

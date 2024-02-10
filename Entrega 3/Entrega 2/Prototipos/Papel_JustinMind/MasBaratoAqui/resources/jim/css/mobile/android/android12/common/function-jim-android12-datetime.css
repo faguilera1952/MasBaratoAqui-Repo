@@ -1,0 +1,583 @@
+body[class*="android"] .ui-widget-content {
+	border: none;
+}
+
+body[class*="android"] .ui-widget-content.ui-datepicker {
+	width: 245px;
+	padding: 0px;
+}
+
+/* HEADER */
+
+body[class*="android"] .ui-widget-header {
+	background: none;
+	border: none;
+	color: black;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+body[class*="android"] .ui-datepicker .ui-android-datepicker-header {
+	background-color: #1A73E8;
+	height: 78px;
+	width: 100%;
+	color: white;
+	font-family: Arial;
+	margin-bottom: 17px;
+}
+
+body[class*="android"] .ui-datepicker .ui-android-datepicker-header > div {
+	margin-left: 21px;
+}
+
+body[class*="android"] .ui-datepicker .ui-android-datepicker-header .header-daymonth-label {
+	font-size: 29px;
+	font-weight: bold;
+}
+
+body[class*="android"] .ui-datepicker .ui-android-datepicker-header .header-year-label {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	padding-top: 13px;
+}
+
+/* Arrows */
+
+body[class*="android"] .ui-datepicker .ui-datepicker-prev span,
+body[class*="android"] .ui-datepicker .ui-datepicker-next span {
+	background-image: none;
+	background-color: #000000;
+	overflow: visible;
+	margin-left: -5px;
+	margin-top: -10px;
+	clip-path: path("M3.0072392482204044 2.3043551398232758 C2.7513169307155216 2.3043551398232758 2.495394613210639 2.401986117453891 2.3001324195308293 2.5972483111337006 C1.9096081513804997 2.9877726984933197 1.9096081513804997 3.620937581153232 2.3001324195308293 4.011461730094272 L8.437229062978705 10.14855765828641 L2.2928930777949894 16.29289245137723 C1.9023688096446598 16.683418269248325 1.9023688096446598 17.316581721396762 2.2928930777949894 17.707107539267856 C2.488155271474799 17.902370448203403 2.744077588979682 17.999999995322543 2.9999999064845646 17.999999995322543 C3.2559222239894474 17.999999995322543 3.5118445414943302 17.902370448203403 3.70710673517414 17.707107539267856 L10.558548833791694 10.855664248557407 C10.746085073415717 10.668128008933383 10.851442243520697 10.413774485678989 10.851442243520697 10.14855765828641 C10.851442243520697 9.883340830893832 10.746085073415717 9.628987307639438 10.558548833791694 9.441451068015414 L3.7143460769099796 2.5972483111337006 C3.51908388323017 2.401986117453891 3.2631615657252873 2.3043551398232758 3.0072392482204044 2.3043551398232758 Z ");
+	height: 18px;
+}
+
+body[class*="android"] .ui-datepicker .ui-datepicker-prev span {
+	transform: scale(0.6) translate(10px, 2px) rotate(180deg);
+}
+
+body[class*="android"] .ui-datepicker .ui-datepicker-next span {
+	transform: scale(0.6) translate(-17px, 0px);
+}
+
+body[class*="android"] .ui-datepicker .ui-datepicker-prev:hover {
+	left: 2px;
+	top: 2px;
+}
+
+body[class*="android"] .ui-datepicker .ui-datepicker-next:hover {
+	right: 2px;
+	top: 2px;
+}
+
+body[class*="android"] .ui-state-hover, 
+body[class*="android"] .ui-widget-content .ui-state-hover, 
+body[class*="android"] .ui-widget-header .ui-state-hover, 
+body[class*="android"] .ui-state-focus, 
+body[class*="android"] .ui-widget-content .ui-state-focus, 
+body[class*="android"] .ui-widget-header .ui-state-focus {
+	background-image: none;
+	background: none;
+	border: none;
+}
+
+/* Calendar */
+
+body[class*="android"] .ui-datepicker table.ui-datepicker-calendar {
+	width: 224px;
+	margin-left: 10.5px;
+	margin-top: 10px;
+}
+
+body[class*="android"] .ui-datepicker table.ui-datepicker-calendar td {
+	width: 32px;
+	height: 32px;
+	padding: 0px;
+}
+
+body[class*="android"] .ui-datepicker table.ui-datepicker-calendar td a {
+	text-align: center;
+	padding: 10px 0px;
+}
+
+body[class*="android"] .ui-datepicker table.ui-datepicker-calendar thead {
+	color: #858585;
+}
+
+/* Selected day */
+body[class*="android"] .ui-widget-content .ui-state-active.ui-state-default {
+	background-color: #1A73E8;
+	color: white;
+	border-radius: 20px;
+}
+
+/* Current day */
+body[class*="android"] .ui-widget-content .ui-state-default.ui-state-highlight {
+	color: #1A73E8;
+}
+
+/* Current day and selected */
+body[class*="android"] .ui-widget-content .ui-state-default.ui-state-highlight.ui-state-active {
+	color: white;
+}
+
+/* Calendar number default */
+body[class*="android"] .ui-widget-content .ui-state-default {
+	background: none;
+	border: none;
+	color: black;
+}
+
+/** Bottom buttons **/
+
+body[class*="android"] .ui-datepicker .ui-datepicker-bottom-buttons {
+	width: 205px;
+	padding: 0px 20px;
+	height: 13px;
+	clear: both;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+
+body[class*="android"] .ui-datepicker .ui-datepicker-bottom-buttons-spacer {
+	display: none;
+}
+
+body[class*="android"] .ui-datepicker .ui-datepicker-bottom-buttons span {
+	font-size: 11px;
+	color: #3382EA;
+	float: left;
+	cursor: pointer;
+}
+
+body[class*="android"] .ui-datepicker .ui-datepicker-bottom-buttons span.ui-datepicker-set,
+body[class*="android"] .ui-datepicker .ui-datepicker-bottom-buttons span.ui-datepicker-cancel {
+	float: right;
+}
+
+body[class*="android"] .ui-datepicker .ui-datepicker-bottom-buttons span.ui-datepicker-cancel {
+	padding-right: 25px;
+}
+
+/* Overlay */
+#jim-container > .ui-android-datepicker-cover {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: black;
+	opacity: 0.4;
+	top: 0px;
+	left: 0px;
+}
+
+/* Date time header */
+
+body[class*="android"] .ui-datepicker .ui-datepicker-android-datetime-header {
+	width: calc(100% - 21px);
+	padding-top: 20px;
+	padding-left: 21px;
+	font-size: 17px;
+	color: black;
+	font-family: 'Arial';
+}
+
+/******** YEAR selector ********/
+
+body[class*="android"] .ui-only-date.ui-datepicker .jp-ui-year-selector {
+    position: absolute;
+    width: 245px;
+    height: 264px;
+    top: 78px;
+	background-color: white;
+	display: none;
+	border-color: #E5E5E5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+body[class*="android"] .ui-only-date.ui-only-timepicker.ui-datepicker #jp-ui-scroll-datepicker { 
+	padding: 0px 5px; 
+	font-size: 14px;
+	font-family: 'Arial';
+	color: black;
+}
+body[class*="android"] .ui-only-date.ui-datepicker .da_days { display: none; }
+body[class*="android"] .ui-only-date.ui-datepicker .da_months { display: none; }
+
+body[class*="android"] .ui-only-date.ui-datepicker #da_options { vertical-align:top; overflow:hidden; height: 262px; margin-top: 1px;}
+body[class*="android"] .ui-only-date.ui-datepicker #da_options .da_options { width: 100%; height: 217px; }
+body[class*="android"] .ui-only-date.ui-datepicker #da_options_big { display: none; }
+
+body[class*="android"] .ui-only-date.ui-datepicker #da_options > div {
+	height: 192px; 
+	top: -226px;
+	float: left;
+}
+body[class*="android"] .ui-only-date.ui-datepicker #da_options > div > div {
+	height: 34px; 
+	line-height: 34px; 
+}
+body[class*="android"] .ui-only-date.ui-datepicker #da_options .da_years { width: 100%; text-align:center; float:left; }
+
+body[class*="android"] .ui-only-date.ui-datepicker #da_options .selected-year {
+	color: #1A73E8;
+	font-size: 22px;
+}
+
+/********               ********/
+
+/******** DATETIME selector ****/
+
+body[class*="android"] .ui-showtime.ui-datepicker #jp-ui-scroll-datepicker { 
+	padding: 0px 5px; 
+	font-size: 12px;
+	font-family:'Arial';
+	margin-top: 29px;
+	height: 120px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+body[class*="android"] .ui-showtime.ui-datepicker div.ui-android-datepicker-separator.top {top: 110px;}
+body[class*="android"] .ui-showtime.ui-datepicker div.ui-android-datepicker-separator.bottom {top: 149px;}
+body[class*="android"] .ui-showtime.ui-datepicker div.ui-android-datepicker-separator.left {left: 25px;}
+body[class*="android"] .ui-showtime.ui-datepicker div.ui-android-datepicker-separator.center {left: 94px;}
+body[class*="android"] .ui-showtime.ui-datepicker div.ui-android-datepicker-separator.right {left: 164px;}
+
+body[class*="android"] .ui-showtime.ui-datepicker div.ui-android-timepicker-separator.top { top: 274px; }
+body[class*="android"] .ui-showtime.ui-datepicker div.ui-android-timepicker-separator.bottom { top: 314px; }
+
+body[class*="android"] .ui-showtime.ui-datepicker #da_options { vertical-align:top; overflow:hidden; height: 200px; }
+body[class*="android"] .ui-showtime.ui-datepicker #da_options .da_options { width: 100%; height: 217px; }
+body[class*="android"] .ui-showtime.ui-datepicker #da_options_big { position:absolute; top: 113px; width: 235px; height: 38px; overflow:hidden; background-color:white; pointer-events:none; }
+body[class*="android"] .ui-showtime.ui-datepicker #da_options_big .da_options { position:relative; }
+
+body[class*="android"] .ui-showtime.ui-datepicker #da_options > div {
+	height: 192px; 
+	top: -337px;
+	float: left;
+}
+body[class*="android"] .ui-showtime.ui-datepicker #da_options > div > div {
+	height: 38px; 
+	line-height:38px; 
+	color: #AEAEAE;
+}
+body[class*="android"] .ui-showtime.ui-datepicker #da_options .da_months { width: 30px;  padding-right: 5px; padding-left: 37px; float:left; }
+body[class*="android"] .ui-showtime.ui-datepicker #da_options .da_years { width: 35px; text-align:center; float:left; }
+body[class*="android"] .ui-showtime.ui-datepicker #da_options .da_days { width: 88px; text-align:center; float:left; padding-right: 9px; }
+
+body[class*="android"] .ui-showtime.ui-datepicker #da_options_big > div {
+	height: 192px; 
+	top: -381px;
+	float: left;
+	position: relative;
+}
+
+body[class*="android"] .ui-showtime.ui-datepicker #da_options_big > div > div {
+	height: 38px;
+	line-height: 38px;
+	color: #000000;
+}
+body[class*="android"] .ui-showtime.ui-datepicker #da_options_big .da_months { width: 30px; padding-right: 5px; padding-left: 37px; }
+body[class*="android"] .ui-showtime.ui-datepicker #da_options_big .da_years { width: 35px; text-align:center; }
+body[class*="android"] .ui-showtime.ui-datepicker #da_options_big .da_days { width: 88px; text-align:center; float:left; padding-right: 9px; }
+
+/******** TIME selector ********/
+
+body[class*="android"] .ui-datepicker-android-time-header {
+	background-color: #1A73E8;
+	height: 48px;
+	width: 100%;
+	color: white;
+	font-family: Arial;
+	margin-bottom: 18px;
+	font-size: 28px;
+    padding-top: 20px;
+}
+
+body[class*="android"] .ui-datepicker-android-time-header > span {
+	padding-left: 21px;
+}
+
+body[class*="android"] .ui-only-timepicker.ui-datepicker .ui-datepicker-bottom-buttons {
+	margin-top: 10px;
+}
+
+body[class*="android"] .ui-showtime.ui-datepicker .ui-datepicker-bottom-buttons {
+	margin-top: 31px;
+}
+
+body[class*="android"] .ui-datepicker #jp-ui-scroll-timepicker > div.ui-android-timepicker-separator,
+body[class*="android"] .ui-datepicker #jp-ui-scroll-datepicker > div.ui-android-datepicker-separator {
+	width: 54px;
+	height: 2px;
+	position: absolute;
+	background-color: #74777C;
+	transform: none;
+}
+
+body[class*="android"] .ui-only-timepicker div.ui-android-timepicker-separator.top {top: 122px;}
+body[class*="android"] .ui-only-timepicker div.ui-android-timepicker-separator.bottom {top: 161px;}
+body[class*="android"] div.ui-android-timepicker-separator.left {left: 25px;}
+body[class*="android"] div.ui-android-timepicker-separator.center {left: 94px;}
+body[class*="android"] div.ui-android-timepicker-separator.right {left: 164px;}
+
+body[class*="android"] .ui-datepicker #jp-ui-scroll-timepicker {
+	width: 245px;
+    height: 120px;
+    overflow: hidden;
+	color: #AEAEAE;
+	font-size: 12px;
+}
+
+body[class*="android"] .ui-datepicker #jp-ui-scroll-timepicker > div {
+	transform: translateY(-10px);
+}
+
+body[class*="android"] .ui-datepicker #ti_controls { height:33px; width:100%; }
+body[class*="android"] .ui-datepicker #ti_options { margin-left: 0px; margin-top:0px; vertical-align:top; overflow:hidden; height: 120px; }
+body[class*="android"] .ui-datepicker #ti_options_big { position:absolute; top: 48px; width: 185px; height: 38px; overflow:hidden; pointer-events:none; margin: 0px 15px; padding-left: 29px; background-color: white; }
+body[class*="android"] .ui-datepicker #ti_options_big .ti_options { position:relative; }
+
+body[class*="android"] .ui-datepicker #ti_options > div {
+	height: 192px; 
+	top:-343px; 
+	float:left; 
+	text-align:right;
+}
+body[class*="android"] .ui-datepicker #ti_options > div > div {
+	height: 39px; 
+	line-height: 39px; 
+}
+body[class*="android"] .ui-datepicker #ti_options .ti_hours { width: 60px; padding-right: 34px; }
+body[class*="android"] .ui-datepicker #ti_options .ti_minutes { width: 35px; padding-right: 18px; }
+body[class*="android"] .ui-datepicker #ti_options .ti_periods { width: 88px; top:47px; text-align:center; }
+
+body[class*="android"] .ui-datepicker #ti_options_big > div {
+	height: 192px; 
+	top:-391px; 
+	float:left; 
+	text-align:right;
+	position:relative;
+	color: #222222;
+	background-color: white;
+}
+body[class*="android"] .ui-datepicker #ti_options_big > div > div {
+	height: 39px;
+	line-height: 39px;
+}
+body[class*="android"] .ui-datepicker #ti_options_big .ti_hours { padding-right: 54px; }
+body[class*="android"] .ui-datepicker #ti_options_big .ti_minutes { padding-right: 53px; }
+body[class*="android"] .ui-datepicker #ti_options_big .ti_periods { top:-1px; text-align:center; }
+body[class*="android"] .ui-datepicker #ti_options_big .ti_minutes .minutes { text-align:right; }
+
+body[class*="android"] .ui-datepicker #ti_options .ti_periods.am { top: 47px; }
+body[class*="android"] .ui-datepicker #ti_options .ti_periods.pm { top: 8px; }
+body[class*="android"] .ui-datepicker #ti_options_big .ti_periods.am { top: -1px; }
+body[class*="android"] .ui-datepicker #ti_options_big .ti_periods.pm { top: -40px; }
+
+/********************************/
+
+/***********LANDSCAPE************/
+
+body[class*="android"] div.ui-widget-content.ui-datepicker.landscape {
+	width: 461px;
+	height: 258px;
+	display: flex;
+	align-items: strech;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-android-datepicker-header {
+	height: auto;
+	width: 145px;
+	margin-bottom: 0px;
+	border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-widget-header {
+    font-size: 14px;
+    font-family: Arial;
+	margin-top: 3px;
+	margin: 3px 11px 0px 3px;
+	padding-bottom: 0px;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-android-datepicker-header .header-year-label {
+	color: #B1CCF7;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-android-datepicker-header .header-daymonth-label {
+    font-size: 28px;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-android-datepicker-header > div {
+    margin-left: 15px;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-datepicker-content-box {
+	width: 316px;
+	display: flex;
+	flex-flow: column;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-datepicker-bottom-buttons {
+	margin-top: 30px;
+}
+
+body[class*="android"] .ui-datepicker.landscape table.ui-datepicker-calendar {
+    margin-left: 9px;
+    margin-top: 4px;
+	width: auto;
+    margin-right: 20px;
+}
+
+body[class*="android"] .ui-datepicker.landscape th {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+body[class*="android"] .ui-datepicker.landscape th:last-child {
+	padding-left: 9px;
+}
+
+body[class*="android"] .ui-datepicker.landscape th span {
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+}
+
+body[class*="android"] .ui-datepicker.landscape table.ui-datepicker-calendar td {
+    height: 28px;
+	width: 28px;
+    border-left-width: 14px;
+    border-left-style: solid;
+    border-left-color: white;
+}
+
+body[class*="android"] .ui-datepicker.landscape table.ui-datepicker-calendar td a {
+    font-size: 12px;
+	padding: 6.5px 0px;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-datepicker-bottom-buttons-spacer {
+	display: block;
+	flex: 1 0 auto;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-datepicker-bottom-buttons {
+	width: 270px;
+	flex: 0 1 auto;
+    margin-top: 0;
+	margin-bottom: 15px;
+}
+
+body[class*="android"] .ui-datepicker.landscape .ui-datepicker-bottom-buttons span {
+	font-size: 13px;
+}
+
+/* TIME */
+
+body[class*="android"] div.ui-only-timepicker.ui-widget-content.ui-datepicker.landscape {
+	height: 174px;
+}
+
+
+body[class*="android"] .ui-datepicker.landscape .ui-datepicker-android-time-header {
+	height: 106px;
+	width: 164px;
+	margin-bottom: 0px;
+	font-size: 32px;
+	padding-top: 68px;
+	border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+body[class*="android"] .landscape .ui-datepicker-android-time-header > span {
+	padding-left: 15px;
+}
+
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape .ui-datepicker-content-box {
+    width: 316px;
+    height: 100%;
+}
+
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape .ui-datepicker-content-box #jp-ui-scroll-timepicker {
+	margin: 0 auto 0 auto;
+}
+
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape .ui-datepicker-bottom-buttons {
+	margin-top: 21px;
+}
+
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape #jp-ui-scroll-timepicker > div {
+	transform: none;
+}
+
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape div.ui-android-timepicker-separator.top {top: 45px;}
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape div.ui-android-timepicker-separator.bottom {top: 84px;}
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape div.ui-android-timepicker-separator.left {left: 207px;}
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape div.ui-android-timepicker-separator.center {left: 277px;}
+body[class*="android"] .ui-only-timepicker.ui-datepicker.landscape div.ui-android-timepicker-separator.right {left: 347px;}
+
+/* DATE TIME */
+body[class*="android"] div.ui-widget-content.ui-showtime.ui-datepicker.landscape {
+	width: 461px;
+	height: 237px;
+	display: block;
+}
+
+body[class*="android"] .ui-showtime.ui-datepicker.landscape .ui-datepicker-content-box {
+	width: 461px;
+	margin: 17px auto 30px auto;
+	display: flex;
+	flex-flow: initial;
+}
+
+body[class*="android"] div.ui-showtime.ui-datepicker.landscape div.ui-datepicker-content-box > div {
+	width: 230px;
+}
+
+body[class*="android"] .ui-showtime.ui-datepicker.landscape .ui-datepicker-bottom-buttons {
+    width: calc(100% - 40px);
+}
+
+body[class*="android"] .ui-showtime.ui-datepicker.landscape #jp-ui-scroll-datepicker {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-datepicker-separator.top {top: 98px;}
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-datepicker-separator.bottom {top: 137px;}
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-datepicker-separator.left {left: 19px;}
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-datepicker-separator.center {left: 89px;}
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-datepicker-separator.right {left:159px;}
+
+body[class*="android"] .ui-showtime.ui-datepicker.landscape #da_options_big { top: 101px; }
+
+body[class*="android"] .ui-showtime.ui-datepicker.landscape #jp-ui-scroll-timepicker > div {
+	transform: translateY(-4px);
+}
+
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-timepicker-separator.top {top: 102px;}
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-timepicker-separator.bottom {top: 141px;}
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-timepicker-separator.left {left: 249px;}
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-timepicker-separator.center {left: 319px;}
+body[class*="android"] .ui-showtime.ui-datepicker.landscape div.ui-android-timepicker-separator.right {left: 389px;}
+
+body[class*="android"] .ui-only-date.ui-datepicker.landscape .jp-ui-year-selector {
+    width: 316px;
+    height: 188px;
+	top: 30px;
+    overflow: hidden;
+}
+
+body[class*="android"] .ui-only-date.ui-datepicker.landscape #da_options > div {
+    top: -264px;
+}
+
+/********************************/
