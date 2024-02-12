@@ -40,7 +40,8 @@ Contiene los [ficheros](https://github.com/faguilera1952/MasBaratoAqui-Repo/tree
 Contiene los [ficheros](https://github.com/faguilera1952/MasBaratoAqui-Repo/tree/main/Entrega%204):
 
 - Evaluación con usuarios de la última versión del prototipo.
-- Página web de lanzamiento del producto final
+- Página web de lanzamiento del producto final.
+- Presentación.
 
 ## ProductoFinal
 
